@@ -1,0 +1,50 @@
+{
+  "platform": {
+    "name": "Nexus Tech",
+    "description": "Device Rental Investment Platform",
+    "version": "1.0.0"
+  },
+  "auth": {
+    "welcomeBonusAmount": 500,
+    "sessionTimeout": 3600000
+  },
+  "investment": {
+    "minDeposit": 3000,
+    "maxDeposit": 10000000
+  },
+  "withdrawal": {
+    "minWithdrawal": 2000,
+    "withdrawalFeePercentage": 10,
+    "operatingHoursStart": "08:00",
+    "operatingHoursEnd": "20:00"
+  },
+  "referral": {
+    "firstLevelPercentage": 15,
+    "secondLevelPercentage": 5
+  },
+  "bankAccount": {
+    "accountName": "Nexus Tech Limited",
+    "accountNumber": "0123456789",
+    "bankName": "First Bank Nigeria",
+    "bankCode": "011"
+  },
+  "customerService": {
+    "telegramUsername": "nexus_tech_support",
+    "telegramBotToken": "YOUR_BOT_TOKEN_HERE",
+    "supportEmail": "support@nexustech.com",
+    "supportPhone": "+234 800 000 0000"
+  },
+  "colors": {
+    "primary": "#0066FF",
+    "secondary": "#00D9FF",
+    "accent": "#FFD700",
+    "background": "#FFFFFF",
+    "text": "#1A1A1A"
+  },
+  "features": {
+    "enableKYC": false,
+    "enableReferralBonus": true,
+    "enableDailyCommission": true,
+    "enableWithdrawalApproval": true
+  }
+}
